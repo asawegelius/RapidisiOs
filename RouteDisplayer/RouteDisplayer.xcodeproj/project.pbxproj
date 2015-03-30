@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40BCE3241A8A01F3009903D7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BCE3231A8A01F3009903D7 /* CoreLocation.framework */; };
+		40BCE3991A8A6681009903D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BCE3961A8A6681009903D7 /* Main.storyboard */; };
+		40BDE2E01A9348B8006C9465 /* Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BDE2DF1A9348B8006C9465 /* Validation.m */; };
+		40BEDEB91A94A0D400BCB2CD /* Styles.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BEDEB81A94A0D400BCB2CD /* Styles.m */; };
+		40C0E4BA1A8E0B5D00657545 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C0E4B91A8E0B5D00657545 /* TabBarController.m */; };
+		40C0E4BC1A8E106D00657545 /* Rapidis-logo3 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 40C0E4BB1A8E106D00657545 /* Rapidis-logo3 (1).png */; };
+		40D5F2E51A824CA7001EBACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D5F2E41A824CA7001EBACE /* main.m */; };
+		40D5F2E81A824CA7001EBACE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D5F2E71A824CA7001EBACE /* AppDelegate.m */; };
+		40D5F2EB1A824CA7001EBACE /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D5F2EA1A824CA7001EBACE /* ListViewController.m */; };
+		40D5F2EE1A824CA7001EBACE /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D5F2ED1A824CA7001EBACE /* MapViewController.m */; };
+		40D5F2F31A824CA7001EBACE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D5F2F21A824CA7001EBACE /* Images.xcassets */; };
+		40D5F2F61A824CA7001EBACE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40D5F2F41A824CA7001EBACE /* LaunchScreen.xib */; };
+		40D5F3021A824CA8001EBACE /* RouteDisplayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D5F3011A824CA8001EBACE /* RouteDisplayerTests.m */; };
+		40D5F30D1A824E97001EBACE /* GetRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D5F30C1A824E97001EBACE /* GetRouteViewController.m */; };
+		40D5F30F1A82519A001EBACE /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40D5F30E1A82519A001EBACE /* ArcGIS.bundle */; };
+		40F51A1C1A84E48600E4B8CC /* Routes.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F51A1B1A84E48600E4B8CC /* Routes.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40D5F2FC1A824CA8001EBACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40D5F2D71A824CA7001EBACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40D5F2DE1A824CA7001EBACE;
+			remoteInfo = RouteDisplayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40BCE3231A8A01F3009903D7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		40BCE3971A8A6681009903D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		40BDE2DE1A9348B8006C9465 /* Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validation.h; sourceTree = "<group>"; };
+		40BDE2DF1A9348B8006C9465 /* Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validation.m; sourceTree = "<group>"; };
+		40BEDEB71A94A0D400BCB2CD /* Styles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Styles.h; sourceTree = "<group>"; };
+		40BEDEB81A94A0D400BCB2CD /* Styles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Styles.m; sourceTree = "<group>"; };
+		40C0E4B81A8E0B5D00657545 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		40C0E4B91A8E0B5D00657545 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		40C0E4BB1A8E106D00657545 /* Rapidis-logo3 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rapidis-logo3 (1).png"; sourceTree = "<group>"; };
+		40D5F2DF1A824CA7001EBACE /* RouteDisplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouteDisplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D5F2E31A824CA7001EBACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D5F2E41A824CA7001EBACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40D5F2E61A824CA7001EBACE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40D5F2E71A824CA7001EBACE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40D5F2E91A824CA7001EBACE /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		40D5F2EA1A824CA7001EBACE /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		40D5F2EC1A824CA7001EBACE /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		40D5F2ED1A824CA7001EBACE /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		40D5F2F21A824CA7001EBACE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40D5F2F51A824CA7001EBACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		40D5F2FB1A824CA8001EBACE /* RouteDisplayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouteDisplayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D5F3001A824CA8001EBACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D5F3011A824CA8001EBACE /* RouteDisplayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouteDisplayerTests.m; sourceTree = "<group>"; };
+		40D5F30B1A824E97001EBACE /* GetRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetRouteViewController.h; sourceTree = "<group>"; };
+		40D5F30C1A824E97001EBACE /* GetRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetRouteViewController.m; sourceTree = "<group>"; };
+		40D5F30E1A82519A001EBACE /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ArcGIS.bundle; sourceTree = "<group>"; };
+		40F51A1A1A84E48600E4B8CC /* Routes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Routes.h; sourceTree = "<group>"; };
+		40F51A1B1A84E48600E4B8CC /* Routes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Routes.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40D5F2DC1A824CA7001EBACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BCE3241A8A01F3009903D7 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D5F2F81A824CA8001EBACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40D5F2D61A824CA7001EBACE = {
+			isa = PBXGroup;
+			children = (
+				40BCE3231A8A01F3009903D7 /* CoreLocation.framework */,
+				40D5F30E1A82519A001EBACE /* ArcGIS.bundle */,
+				40D5F2E11A824CA7001EBACE /* RouteDisplayer */,
+				40D5F2FE1A824CA8001EBACE /* RouteDisplayerTests */,
+				40D5F2E01A824CA7001EBACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40D5F2E01A824CA7001EBACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40D5F2DF1A824CA7001EBACE /* RouteDisplayer.app */,
+				40D5F2FB1A824CA8001EBACE /* RouteDisplayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40D5F2E11A824CA7001EBACE /* RouteDisplayer */ = {
+			isa = PBXGroup;
+			children = (
+				40C0E4BB1A8E106D00657545 /* Rapidis-logo3 (1).png */,
+				40BCE3961A8A6681009903D7 /* Main.storyboard */,
+				40D5F2E61A824CA7001EBACE /* AppDelegate.h */,
+				40D5F2E71A824CA7001EBACE /* AppDelegate.m */,
+				40D5F2E91A824CA7001EBACE /* ListViewController.h */,
+				40D5F2EA1A824CA7001EBACE /* ListViewController.m */,
+				40D5F2EC1A824CA7001EBACE /* MapViewController.h */,
+				40D5F2ED1A824CA7001EBACE /* MapViewController.m */,
+				40D5F2F21A824CA7001EBACE /* Images.xcassets */,
+				40D5F2F41A824CA7001EBACE /* LaunchScreen.xib */,
+				40D5F2E21A824CA7001EBACE /* Supporting Files */,
+				40D5F30B1A824E97001EBACE /* GetRouteViewController.h */,
+				40D5F30C1A824E97001EBACE /* GetRouteViewController.m */,
+				40F51A1A1A84E48600E4B8CC /* Routes.h */,
+				40F51A1B1A84E48600E4B8CC /* Routes.m */,
+				40C0E4B81A8E0B5D00657545 /* TabBarController.h */,
+				40C0E4B91A8E0B5D00657545 /* TabBarController.m */,
+				40BDE2DE1A9348B8006C9465 /* Validation.h */,
+				40BDE2DF1A9348B8006C9465 /* Validation.m */,
+				40BEDEB71A94A0D400BCB2CD /* Styles.h */,
+				40BEDEB81A94A0D400BCB2CD /* Styles.m */,
+			);
+			path = RouteDisplayer;
+			sourceTree = "<group>";
+		};
+		40D5F2E21A824CA7001EBACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40D5F2E31A824CA7001EBACE /* Info.plist */,
+				40D5F2E41A824CA7001EBACE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40D5F2FE1A824CA8001EBACE /* RouteDisplayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				40D5F3011A824CA8001EBACE /* RouteDisplayerTests.m */,
+				40D5F2FF1A824CA8001EBACE /* Supporting Files */,
+			);
+			path = RouteDisplayerTests;
+			sourceTree = "<group>";
+		};
+		40D5F2FF1A824CA8001EBACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40D5F3001A824CA8001EBACE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40D5F2DE1A824CA7001EBACE /* RouteDisplayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40D5F3051A824CA8001EBACE /* Build configuration list for PBXNativeTarget "RouteDisplayer" */;
+			buildPhases = (
+				40D5F2DB1A824CA7001EBACE /* Sources */,
+				40D5F2DC1A824CA7001EBACE /* Frameworks */,
+				40D5F2DD1A824CA7001EBACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouteDisplayer;
+			productName = RouteDisplayer;
+			productReference = 40D5F2DF1A824CA7001EBACE /* RouteDisplayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40D5F2FA1A824CA8001EBACE /* RouteDisplayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40D5F3081A824CA8001EBACE /* Build configuration list for PBXNativeTarget "RouteDisplayerTests" */;
+			buildPhases = (
+				40D5F2F71A824CA8001EBACE /* Sources */,
+				40D5F2F81A824CA8001EBACE /* Frameworks */,
+				40D5F2F91A824CA8001EBACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40D5F2FD1A824CA8001EBACE /* PBXTargetDependency */,
+			);
+			name = RouteDisplayerTests;
+			productName = RouteDisplayerTests;
+			productReference = 40D5F2FB1A824CA8001EBACE /* RouteDisplayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40D5F2D71A824CA7001EBACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Åsa Susanna Wegelius";
+				TargetAttributes = {
+					40D5F2DE1A824CA7001EBACE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					40D5F2FA1A824CA8001EBACE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 40D5F2DE1A824CA7001EBACE;
+					};
+				};
+			};
+			buildConfigurationList = 40D5F2DA1A824CA7001EBACE /* Build configuration list for PBXProject "RouteDisplayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40D5F2D61A824CA7001EBACE;
+			productRefGroup = 40D5F2E01A824CA7001EBACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40D5F2DE1A824CA7001EBACE /* RouteDisplayer */,
+				40D5F2FA1A824CA8001EBACE /* RouteDisplayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40D5F2DD1A824CA7001EBACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D5F2F61A824CA7001EBACE /* LaunchScreen.xib in Resources */,
+				40C0E4BC1A8E106D00657545 /* Rapidis-logo3 (1).png in Resources */,
+				40BCE3991A8A6681009903D7 /* Main.storyboard in Resources */,
+				40D5F30F1A82519A001EBACE /* ArcGIS.bundle in Resources */,
+				40D5F2F31A824CA7001EBACE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D5F2F91A824CA8001EBACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40D5F2DB1A824CA7001EBACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D5F2EE1A824CA7001EBACE /* MapViewController.m in Sources */,
+				40D5F2E81A824CA7001EBACE /* AppDelegate.m in Sources */,
+				40BDE2E01A9348B8006C9465 /* Validation.m in Sources */,
+				40D5F2EB1A824CA7001EBACE /* ListViewController.m in Sources */,
+				40F51A1C1A84E48600E4B8CC /* Routes.m in Sources */,
+				40C0E4BA1A8E0B5D00657545 /* TabBarController.m in Sources */,
+				40BEDEB91A94A0D400BCB2CD /* Styles.m in Sources */,
+				40D5F30D1A824E97001EBACE /* GetRouteViewController.m in Sources */,
+				40D5F2E51A824CA7001EBACE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D5F2F71A824CA8001EBACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D5F3021A824CA8001EBACE /* RouteDisplayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40D5F2FD1A824CA8001EBACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40D5F2DE1A824CA7001EBACE /* RouteDisplayer */;
+			targetProxy = 40D5F2FC1A824CA8001EBACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40BCE3961A8A6681009903D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40BCE3971A8A6681009903D7 /* Base */,
+			);
+			name = Main.storyboard;
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		40D5F2F41A824CA7001EBACE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40D5F2F51A824CA7001EBACE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40D5F3031A824CA8001EBACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40D5F3041A824CA8001EBACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40D5F3061A824CA8001EBACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/";
+				INFOPLIST_FILE = RouteDisplayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40D5F3071A824CA8001EBACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/";
+				INFOPLIST_FILE = RouteDisplayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40D5F3091A824CA8001EBACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RouteDisplayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RouteDisplayer.app/RouteDisplayer";
+			};
+			name = Debug;
+		};
+		40D5F30A1A824CA8001EBACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RouteDisplayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RouteDisplayer.app/RouteDisplayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40D5F2DA1A824CA7001EBACE /* Build configuration list for PBXProject "RouteDisplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D5F3031A824CA8001EBACE /* Debug */,
+				40D5F3041A824CA8001EBACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40D5F3051A824CA8001EBACE /* Build configuration list for PBXNativeTarget "RouteDisplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D5F3061A824CA8001EBACE /* Debug */,
+				40D5F3071A824CA8001EBACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40D5F3081A824CA8001EBACE /* Build configuration list for PBXNativeTarget "RouteDisplayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D5F3091A824CA8001EBACE /* Debug */,
+				40D5F30A1A824CA8001EBACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40D5F2D71A824CA7001EBACE /* Project object */;
+}
